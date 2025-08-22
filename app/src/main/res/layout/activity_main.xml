@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#87CEEB"
+    tools:context=".MainActivity">
+
+    <!-- 🔹 TÍTULO -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA DE PROMEDIOS"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"/>
+
+
+
+    <!-- 🔹 CAMPOS DE TEXTO -->
+    <EditText
+        android:id="@+id/etCalificacion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calificación 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etCalificacion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calificación 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etCalificacion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calificación 3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 🔹 BOTÓN -->
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Promedio"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"/>
+
+    <!-- 🔹 RESULTADO -->
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Resultado: "/>
+
+
+</LinearLayout>

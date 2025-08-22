@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>   <!-- Azul violeta -->
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#03DAC5</color> <!-- Verde agua -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Fondo claro -->
+    <color name="textColor">#212121</color>
+    <color name="buttonColor">#FF5722</color> <!-- Naranja -->
+</resources>
